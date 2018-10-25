@@ -41,7 +41,7 @@ void Walking::shoveling(Animation * a)
 
 void Walking::hammering(Animation * a)
 {
-	std::cout << "Going from walking to hamering" << std::endl;
+	std::cout << "Going from walking to hammering" << std::endl;
 	a->setCurrent(new Hammering());
 	delete this;
 

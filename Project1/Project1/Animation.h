@@ -5,6 +5,7 @@
 class Animation
 {
 	class State* current;
+	bool m_climbing = false;
 
 public:
 
@@ -22,6 +23,7 @@ public:
 	void shoveling();
 	void swordsmanship();
 	void walking();
+	bool getClimbing();
 };
 
 #endif // !Animation_h

@@ -1,11 +1,2 @@
-﻿  Animation.cpp
-  Climbing.cpp
-  Hammering.cpp
-  Idle.cpp
-  Jumping.cpp
-  main.cpp
-  Shoveling.cpp
-  Swordsmanship.cpp
-  Walking.cpp
-  Generating Code...
-LINK : fatal error LNK1104: cannot open file 'sfml-graphics-d.lib'
+﻿main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static bool __cdecl sf::Keyboard::isKeyPressed(enum sf::Keyboard::Key)" (__imp_?isKeyPressed@Keyboard@sf@@SA_NW4Key@12@@Z) referenced in function main
+C:\Users\C00226157\Desktop\Animated-FSM\Project1\x64\Debug\Project1.exe : fatal error LNK1120: 1 unresolved externals

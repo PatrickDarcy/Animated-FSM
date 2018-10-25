@@ -7,6 +7,7 @@
 #include "Hammering.h"
 #include "Swordsmanship.h"
 #include "Walking.h"
+#include "Idle.h"
 
 #include<iostream>
 

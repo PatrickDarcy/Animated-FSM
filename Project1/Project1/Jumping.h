@@ -9,12 +9,14 @@
 #include "Walking.h"
 #include "Hammering.h"
 
+#include <iostream>
+
 class Jumping : public State
 
 {
 public:
-	Jumping() { };
-	~Jumping() { };
+	Jumping() {};
+	~Jumping() {};
 	void idle(Animation* a);
 	void climbing(Animation *a);
 	void walking(Animation *a);

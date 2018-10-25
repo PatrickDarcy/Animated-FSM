@@ -9,6 +9,7 @@ Animation::Animation()
 void Animation::idle()
 {
 	current->idle(this);
+	m_climbing = false;
 }
 
 void Animation::jumping()
@@ -19,6 +20,7 @@ void Animation::jumping()
 void Animation::climbing()
 {
 	current->climbing(this);
+	m_climbing = true;
 }
 
 void Animation::shoveling()
@@ -29,6 +31,11 @@ void Animation::shoveling()
 void Animation::walking()
 {
 	current->walking(this);
+}
+
+bool Animation::getClimbing()
+{
+	return m_climbing;
 }
 
 void Animation::swordsmanship()
