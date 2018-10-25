@@ -1,0 +1,11 @@
+﻿  Animation.cpp
+  Climbing.cpp
+  Hammering.cpp
+  Idle.cpp
+  Jumping.cpp
+  main.cpp
+  Shoveling.cpp
+  Swordsmanship.cpp
+  Walking.cpp
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'sfml-graphics-d.lib'
